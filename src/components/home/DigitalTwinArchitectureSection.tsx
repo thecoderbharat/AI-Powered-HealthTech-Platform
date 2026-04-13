@@ -115,7 +115,7 @@ export default function DigitalTwinArchitectureSection() {
 
           <div className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-[0_40px_80px_rgba(0,0,0,0.6)] shadow-glow-teal">
             <Image
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHloc6icZ11TMs81IbugX0V0BrMghX79ThEfGsNrBeoucGGO8Fw7fSjxRjmPGggosU1UmCJySztrGY8TpM-fAe8TSUghd8JsxKaqQg8G49pd_rA115kDk8EyIZTxfai30KXTVyXhH9doUz2cAOAqzDoRlcV9o36ZTjrMIyIjnJAcETBv2VQwJiiZ2VTvFghlOUEoWSGIWV2xqhIEE3cEUSHUvGoeqIwPYJjPKMU9FeuFc6sbjXOhEs6e6zr1BEUCriIEUk2jc9k5o"
+              src="/images/preventact.png"
               alt="Isometric 3D diagram of the WellAhead.ai Preventive Behavioral Digital Twin architecture — neural networks integrated with biological data streams and AI processing layers"
               width={540}
               height={540}

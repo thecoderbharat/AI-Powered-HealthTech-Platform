@@ -15,7 +15,7 @@ export default function HeroSection() {
   return (
     <section
       aria-labelledby="hero-heading"
-      className="relative min-h-[88vh] flex items-center pt-24 pb-16 overflow-hidden"
+      className="relative min-h-[88vh] flex items-center pt-24 pb-6 overflow-hidden"
     >
       {/* ── Ambient background blobs ── */}
       <div aria-hidden="true" className="absolute inset-0 z-0 pointer-events-none">
@@ -97,7 +97,7 @@ export default function HeroSection() {
             />
             <div className="relative rounded-[2.5rem] overflow-hidden shadow-[0_40px_80px_rgba(0,0,0,0.6)] shadow-glow-teal animate-float">
               <Image
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHloc6icZ11TMs81IbugX0V0BrMghX79ThEfGsNrBeoucGGO8Fw7fSjxRjmPGggosU1UmCJySztrGY8TpM-fAe8TSUghd8JsxKaqQg8G49pd_rA115kDk8EyIZTxfai30KXTVyXhH9doUz2cAOAqzDoRlcV9o36ZTjrMIyIjnJAcETBv2VQwJiiZ2VTvFghlOUEoWSGIWV2xqhIEE3cEUSHUvGoeqIwPYJjPKMU9FeuFc6sbjXOhEs6e6zr1BEUCriIEUk2jc9k5o"
+                src="/images/predictsimulate.png"
                 alt="High-fidelity 3D rendering of the WellAhead.ai Behavioral Digital Twin — a glowing teal humanoid figure surrounded by neural data streams"
                 width={520}
                 height={580}
