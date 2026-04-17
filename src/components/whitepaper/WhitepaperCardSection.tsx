@@ -78,19 +78,22 @@ export default function WhitepaperCardSection() {
                 variants={staggerItem}
                 className="flex justify-center lg:justify-start"
               >
-                <motion.button
-                  whileHover={{ ...hoverScaleButton, backgroundColor: "#83efe1" }}
-                  whileTap={tapScale}
-                  className="inline-flex items-center gap-3 bg-white text-surface-container-lowest px-10 py-5 rounded-full font-bold text-base font-headline transition-colors duration-200 group"
-                  aria-label="Download the WellAhead.ai clinical whitepaper PDF"
-                >
-                  Download Whitepaper
-                  <Download
-                    size={18}
-                    className="group-hover:translate-y-0.5 transition-transform"
-                    aria-hidden="true"
-                  />
-                </motion.button>
+                <motion.a
+                    href="/WellAheadWhitepaper.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.04 }}
+                    whileTap={{ scale: 0.97 }}
+                    className="inline-flex items-center gap-3 bg-white text-surface-container-lowest px-10 py-5 rounded-full font-bold text-base font-headline transition-colors duration-200 group hover:bg-primary"
+                    aria-label="Download the WellAhead.ai clinical whitepaper PDF"
+                  >
+                    Download Whitepaper
+                    <Download
+                      size={18}
+                      className="group-hover:translate-y-0.5 transition-transform"
+                      aria-hidden="true"
+                    />
+                </motion.a>
               </motion.div>
             </motion.div>
           </div>
