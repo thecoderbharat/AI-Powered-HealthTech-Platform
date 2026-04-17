@@ -3,42 +3,47 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import {
-  fadeUpVariants,
   cardGridContainer,
   cardGridItem,
   viewportOnce,
 } from "@/lib/animations";
 
+// ─── Real app screenshots ──────────────────────────────────────────────────
+// Place images in: public/images/
+// app-dashboard.png  → Hi Bharat / Prevention Score 73 screen
+// app-daily-plan.png → Optimize Your Day / Today's Protocol screen
+// app-profile.png    → Profile / BH avatar screen
+// ──────────────────────────────────────────────────────────────────────────
 const appScreens = [
   {
     title: "Universal Dashboard",
     description:
       "Real-time synthesis of genomic, biometric, and environmental data.",
-    imageSrc:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBKI9qKqJBPRpTskCVZ_2NDZmh7yFt3rbVfGNQlN88uoSOiAVK_mGf7ya8yeoQc9dk71YOSYHTiMaRISdao_nmd5C_yTF__ZcJXdus-lUT_ix2Z6dQPggrwvevRHJVcEKtvg3y3mKnC_c5rlR2YhOasRY0cvzcijt3L5paW8V4bpKcJfFZL8s7F-vn1Mr1Wo_Db3gboUUE37RI9TltfV4mTjth5sodypmoaIYAJXI3q6OrYUkuc80nqpUBvBMd4gkfnJPGGQBNarRk",
+    imageSrc: "/images/app-dashboard.png",
     imageAlt:
-      "WellAhead.ai Universal Dashboard mobile screen — glowing teal biometric rings, health score, and data visualizations on a dark background",
-    offsetClass: "", // no offset
+      "WellAhead.ai app home screen showing Prevention Score of 73, Today's Focus items including Hydration goal, Low HDL Cholesterol risk area, and High Processed Food Intake alert",
+    offsetClass: "",
+    glow: "rgba(131,239,225,0.15)",
   },
   {
     title: "Adaptive Daily Plan",
     description:
       "Precision micro-adjustments to nutrition and recovery based on circadian flux.",
-    imageSrc:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBgd0wwbTAAD6VmQ4SfgTbNL0Ns5GKg37A3L1l9SDBhaurmmRoSAnHe3EGbvGrzgIeSfOWI9ndrHY6pwkmm6HBFxs0og7OXLyAczx0c4GjjWAgm7zTB58Pgx_gj_mhbNR9ojllK-q6xArCZjOFXUrJxcXvsu8Jboh1DPj2JbkMf1LPi13WLsLFs-fZqEonGXreFd-2818EGtTYKeUw-8C-2tx1LblEy0z4ruTypDYdqsaoRedMbAwBpQWqsf54WWXDj9w3f-j9-3Yo",
+    imageSrc: "/images/app-daily-plan.png",
     imageAlt:
-      "WellAhead.ai Adaptive Daily Plan mobile screen — personalised health schedule with minimalist typography and soft purple accent colors",
-    offsetClass: "md:translate-y-12", // visual stagger offset
+      "WellAhead.ai Adaptive Daily Plan screen showing Today's Protocol — Optimize Your Day with Morning Hydration, Heart-Healthy Breakfast completed, and Desk Break Mobility tasks",
+    offsetClass: "md:translate-y-12",
+    glow: "rgba(175,136,255,0.15)",
   },
   {
     title: "AI Health Oracle",
     description:
       "Context-aware conversational intelligence for immediate diagnostic clarity.",
-    imageSrc:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuB_FKzMnycnQx5tA56YqS6C_4adEAzKO3YWpy7Bq1-3e9v3Nyx3EGIUrh494YzsNMR7-zxMruvVAiOzg45ned8Fupoqx8bYZqOvvVOcHtAEl8uYqEXzmPT-U2kCVq38cb5x7RAj_AGGTL0IXcuuL2CiDyPpo8_gXaImr2_ZXx_irLmuTIjge7wOMdp-y5tig-kWawqR3bsvRVVWu5sOcQ0RuQIP0Uqg2NU3meWsh6E-rw4VodEpcCEiV3Fy3NgSwf2DLzIR6ea1xcQ",
+    imageSrc: "/images/app-profile.png",
     imageAlt:
-      "WellAhead.ai AI Health Oracle chat interface — conversational AI assistant providing diagnostic insights with dark mode and neon cyan highlights",
+      "WellAhead.ai Profile screen showing user Bharat with Prevention Score 73/100, Health Goals, Top Risk Area Low HDL Cholesterol, and Location details",
     offsetClass: "",
+    glow: "rgba(131,239,225,0.15)",
   },
 ];
 
@@ -50,17 +55,10 @@ export default function AppShowcaseSection() {
       className="py-20 md:py-28 px-6 md:px-8"
     >
       <div className="max-w-7xl mx-auto">
-        {/* Optional heading for screen readers / SEO hierarchy */}
-        <motion.h2
-          id="app-showcase-heading"
-          className="sr-only"
-          variants={fadeUpVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={viewportOnce}
-        >
-          WellAhead.ai App Features
-        </motion.h2>
+        {/* Visually hidden heading for SEO / accessibility */}
+        <h2 id="app-showcase-heading" className="sr-only">
+          WellAhead.ai App Feature Screenshots
+        </h2>
 
         {/* ── 3-column staggered phone grid ── */}
         <motion.div
@@ -70,31 +68,48 @@ export default function AppShowcaseSection() {
           whileInView="visible"
           viewport={viewportOnce}
           role="list"
-          aria-label="WellAhead.ai app feature screens"
+          aria-label="WellAhead.ai real app screenshots"
         >
-          {appScreens.map(({ title, description, imageSrc, imageAlt, offsetClass }) => (
+          {appScreens.map(({ title, description, imageSrc, imageAlt, offsetClass, glow }) => (
             <motion.article
               key={title}
               variants={cardGridItem}
               role="listitem"
               className={`flex flex-col gap-5 ${offsetClass}`}
             >
-              {/* Phone mockup frame */}
+              {/* ── Phone frame with screenshot ── */}
               <motion.div
-                className="rounded-[1.5rem] overflow-hidden bg-surface-container border border-outline-variant/10 aspect-[9/19] relative shadow-[0_24px_48px_rgba(0,0,0,0.4)]"
+                className="relative rounded-[2rem] overflow-hidden"
+                style={{
+                  aspectRatio: "9 / 19.5",
+                  background: "#070d1f",
+                  border: "1px solid rgba(255,255,255,0.08)",
+                  boxShadow: `0 24px 48px rgba(0,0,0,0.5), 0 0 40px ${glow}`,
+                }}
                 whileHover={{ scale: 1.02, y: -6 }}
                 transition={{ duration: 0.3, ease: "easeOut" }}
               >
+                {/* Screenshot image */}
                 <Image
                   src={imageSrc}
                   alt={imageAlt}
                   fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 90vw, 340px"
+                  className="object-cover object-top"
+                  sizes="(max-width: 768px) 85vw, 300px"
+                />
+
+                {/* Subtle top reflection */}
+                <div
+                  aria-hidden="true"
+                  className="absolute top-0 left-0 right-0 h-20 pointer-events-none"
+                  style={{
+                    background:
+                      "linear-gradient(to bottom, rgba(131,239,225,0.04) 0%, transparent 100%)",
+                  }}
                 />
               </motion.div>
 
-              {/* Caption */}
+              {/* ── Caption ── */}
               <div className="px-1">
                 <h3 className="font-headline font-bold text-lg text-on-surface mb-1.5">
                   {title}
