@@ -7,8 +7,6 @@ import {
   staggerContainer,
   staggerItem,
   viewportOnce,
-  hoverScaleButton,
-  tapScale,
 } from "@/lib/animations";
 
 export default function WhitepaperCardSection() {
@@ -78,11 +76,14 @@ export default function WhitepaperCardSection() {
                 variants={staggerItem}
                 className="flex justify-center lg:justify-start"
               >
-                <motion.button
-                  whileHover={{ ...hoverScaleButton, backgroundColor: "#83efe1" }}
-                  whileTap={tapScale}
-                  className="inline-flex items-center gap-3 bg-white text-surface-container-lowest px-10 py-5 rounded-full font-bold text-base font-headline transition-colors duration-200 group"
-                  aria-label="Download the SvasthaX clinical whitepaper PDF"
+                <motion.a
+                  href="/SvasthaXWhitepaper.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.04 }}
+                  whileTap={{ scale: 0.97 }}
+                  className="inline-flex items-center gap-3 bg-white text-surface-container-lowest px-10 py-5 rounded-full font-bold text-base font-headline transition-colors duration-200 group hover:bg-primary cursor-pointer"
+                  aria-label="Open the SvasthaX clinical whitepaper PDF in a new tab"
                 >
                   Download Whitepaper
                   <Download
@@ -90,7 +91,7 @@ export default function WhitepaperCardSection() {
                     className="group-hover:translate-y-0.5 transition-transform"
                     aria-hidden="true"
                   />
-                </motion.button>
+                </motion.a>
               </motion.div>
             </motion.div>
           </div>
