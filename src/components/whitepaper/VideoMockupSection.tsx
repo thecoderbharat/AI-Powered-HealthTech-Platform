@@ -42,7 +42,7 @@ export default function VideoMockupSection() {
           onHoverEnd={() => setIsHovered(false)}
           role="button"
           tabIndex={0}
-          aria-label="Play the WellAhead.ai predictive neural pathways core demo video — 4 minutes 12 seconds"
+          aria-label="Play the SvasthaX predictive neural pathways core demo video — 4 minutes 12 seconds"
           onKeyDown={(e) => {
             if (e.key === "Enter" || e.key === " ") {
               // Placeholder: open video player
@@ -53,7 +53,7 @@ export default function VideoMockupSection() {
           <div className="aspect-video relative">
             <Image
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMLfRe7u-eGYBOH3O6j6ZC9STHUMPHqGY_JpBg-nwp-ZvcNbvKRxTj6aAxWcsR4zGcYZRLjDn5ZSy0GNkppsZU-ZfD4LflYwwMVDN8tZV4L5-O7xXPWst0S2ynSW25uLEQmwGLCOlCc8oOnKrkSZwQ93B5ZwPt88ky2g1jjzUSNEZszYmTt6-YeAhlpDoCkkFUkYF4C2WTQFdgnB7XVFop9mMNrEYHjc1bMbcUXb0KPafnc36EL01lTGODFZQWr0xCNbreT6OMRFE"
-              alt="Preview thumbnail of WellAhead.ai clinical demonstration — a modern clinical lab environment with a holographic AI health interface showing neural pathways and vital signs in teal"
+              alt="Preview thumbnail of SvasthaX clinical demonstration — a modern clinical lab environment with a holographic AI health interface showing neural pathways and vital signs in teal"
               fill
               className={`object-cover transition-transform duration-700 ${isHovered ? "scale-105" : "scale-100"}`}
               sizes="(max-width: 768px) 100vw, 1200px"

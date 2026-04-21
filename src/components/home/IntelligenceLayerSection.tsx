@@ -105,7 +105,7 @@ export default function IntelligenceLayerSection() {
           whileInView="visible"
           viewport={viewportOnce}
           role="list"
-          aria-label="WellAhead.ai proprietary AI algorithm modules"
+          aria-label="SvasthaX proprietary AI algorithm modules"
         >
           {algorithmCards.map(({ icon: Icon, acronym, fullName, description, color, glow, accent }) => (
             <motion.article

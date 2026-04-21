@@ -7,22 +7,22 @@ import WaitlistForm from "@/components/waitlist/WaitlistForm";
 
 // ─── Page-level SEO Metadata ───────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "Secure Early Access — Join the WellAhead.ai Waitlist",
+  title: "Secure Early Access — Join the SvasthaX Waitlist",
   description:
-    "Join the exclusive WellAhead.ai waitlist. Be among the first health pioneers to experience clinical-grade AI-powered preventive care and your personal Behavioral Digital Twin.",
+    "Join the exclusive SvasthaX waitlist. Be among the first health pioneers to experience clinical-grade AI-powered preventive care and your personal Behavioral Digital Twin.",
   openGraph: {
-    title: "Secure Your Early Access | WellAhead.ai Waitlist",
+    title: "Secure Your Early Access | SvasthaX Waitlist",
     description:
       "Join an exclusive circle of health pioneers. Gain data-driven clarity on your longevity and take the guesswork out of preventive wellness.",
-    url: "https://wellahead.ai/waitlist",
+    url: "https://svasthax.com/waitlist",
   },
   twitter: {
-    title: "Join the WellAhead.ai Waitlist — Early Access",
+    title: "Join the SvasthaX Waitlist — Early Access",
     description:
       "Secure your spot for the future of preventive health AI. Limited early access available.",
   },
   alternates: {
-    canonical: "https://wellahead.ai/waitlist",
+    canonical: "https://svasthax.com/waitlist",
   },
   // Waitlist pages should not be indexed while invite-only
   robots: {

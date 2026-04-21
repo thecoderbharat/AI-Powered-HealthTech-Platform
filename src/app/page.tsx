@@ -11,22 +11,22 @@ import FinalCTASection from "@/components/home/FinalCTASection";
 
 // ─── Page-level SEO Metadata ───────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "WellAhead.ai | Predict. Adapt. Prevent.",
+  title: "SvasthaX | Predict. Adapt. Prevent.",
   description:
-    "The era of reactive medicine is over. WellAhead.ai is a clinical-grade AI platform that simulates your health future using a Behavioral Digital Twin — predicting illness before it manifests.",
+    "The era of reactive medicine is over. SvasthaX is a clinical-grade AI platform that simulates your health future using a Behavioral Digital Twin — predicting illness before it manifests.",
   openGraph: {
-    title: "WellAhead.ai | Predict. Adapt. Prevent.",
+    title: "SvasthaX | Predict. Adapt. Prevent.",
     description:
       "Deep-tech preventive intelligence to simulate health outcomes before they occur. Meet your AI-powered Digital Twin.",
-    url: "https://wellahead.ai",
+    url: "https://svasthax.com",
   },
   twitter: {
-    title: "WellAhead.ai | Predict. Adapt. Prevent.",
+    title: "SvasthaX | Predict. Adapt. Prevent.",
     description:
       "Deep-tech preventive intelligence to simulate health outcomes before they occur.",
   },
   alternates: {
-    canonical: "https://wellahead.ai",
+    canonical: "https://svasthax.com",
   },
 };
 

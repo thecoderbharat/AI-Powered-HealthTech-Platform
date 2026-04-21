@@ -30,7 +30,7 @@ export default function NotFound() {
         <Link
           href="/"
           className="btn-primary inline-block px-10 py-4 text-base"
-          aria-label="Return to the WellAhead.ai homepage"
+          aria-label="Return to the SvasthaX homepage"
         >
           Return Home
         </Link>

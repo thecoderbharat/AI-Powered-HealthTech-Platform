@@ -1,4 +1,4 @@
-# 🚀 WellAhead.ai — Complete Deployment Guide
+# 🚀 SvasthaX — Complete Deployment Guide
 ## GitHub + Vercel + Resend Email — From Zero to Live
 
 ---
@@ -30,7 +30,7 @@ Your Computer  →  GitHub Repo  →  Vercel (auto-deploy)
 ### Step 1.2 — Get your API Key
 1. After login, click **"API Keys"** in the left sidebar
 2. Click **"Create API Key"**
-3. Name it: `wellahead-production`
+3. Name it: `svasthax-production`
 4. Permission: **"Sending access"**
 5. Click **"Add"**
 6. **⚠️ COPY THE KEY NOW** — it starts with `re_` and is only shown once
@@ -40,13 +40,13 @@ Your Computer  →  GitHub Repo  →  Vercel (auto-deploy)
 ### Step 1.3 — Verify your sender domain (optional but recommended)
 > **Skip this step if you just want to test.** Without it, emails send from `onboarding@resend.dev` which works fine for testing.
 
-For production with your own domain (e.g., `noreply@wellahead.ai`):
+For production with your own domain (e.g., `noreply@svasthax.com`):
 1. Click **"Domains"** in sidebar → **"Add Domain"**
 2. Enter your domain → follow the DNS instructions shown
 3. Once verified, update the `from` field in `src/app/api/waitlist/route.ts`:
    ```ts
    // Change this line in route.ts:
-   from: "WellAhead.ai <noreply@yourdomain.com>",
+   from: "SvasthaX <noreply@yourdomain.com>",
    ```
 
 ---
@@ -78,7 +78,7 @@ git config --global user.email "your@email.com"
 ### Step 2.4 — Create a new GitHub repository
 1. Click the **"+"** icon (top right) → **"New repository"**
 2. Fill in:
-   - **Repository name:** `wellahead-ai`
+   - **Repository name:** `svasthax`
    - **Description:** `Clinical-grade preventive healthcare AI platform`
    - **Visibility:** ✅ **Private** (recommended — keeps your code private)
    - **DO NOT** check "Add README" or any other options
@@ -90,8 +90,8 @@ git config --global user.email "your@email.com"
 Open Terminal/Command Prompt and navigate to your project folder:
 
 ```bash
-# Navigate to the wellahead folder (adjust path to where you extracted the zip)
-cd path/to/wellahead
+# Navigate to the svasthax folder (adjust path to where you extracted the zip)
+cd path/to/svasthax
 
 # Initialize Git repository
 git init
@@ -100,14 +100,14 @@ git init
 git add .
 
 # Create your first commit
-git commit -m "feat: initial WellAhead.ai Next.js 14 codebase"
+git commit -m "feat: initial SvasthaX Next.js 14 codebase"
 
 # Set branch name to 'main'
 git branch -M main
 
 # Connect to your GitHub repository
 # (Replace YOUR_USERNAME with your actual GitHub username)
-git remote add origin https://github.com/YOUR_USERNAME/wellahead-ai.git
+git remote add origin https://github.com/YOUR_USERNAME/svasthax.git
 
 # Push your code to GitHub
 git push -u origin main
@@ -138,7 +138,7 @@ The `.gitignore` file already excludes it. Good — your API keys stay private.
 ### Step 3.2 — Import your GitHub repository
 1. After login, click **"Add New..."** → **"Project"**
 2. You'll see a list of your GitHub repositories
-3. Find **`wellahead-ai`** and click **"Import"**
+3. Find **`svasthax`** and click **"Import"**
 
 ### Step 3.3 — Configure the project
 Vercel auto-detects Next.js. You should see:
@@ -169,7 +169,7 @@ To add each one:
 1. Click **"Deploy"**
 2. Watch the build logs — takes about 60-90 seconds
 3. When you see **"Congratulations!"** → click **"Continue to Dashboard"**
-4. Your site is now live at: `https://wellahead-ai-XXXX.vercel.app`
+4. Your site is now live at: `https://svasthax-XXXX.vercel.app`
 
 ### Step 3.5 — Test the live site
 1. Open your Vercel URL
@@ -223,18 +223,18 @@ git add .
 git commit -m "test: new hero variant"
 git push origin feature/new-hero
 ```
-Vercel creates a unique preview URL like `wellahead-ai-git-feature-new-hero.vercel.app`  
+Vercel creates a unique preview URL like `svasthax-git-feature-new-hero.vercel.app`  
 This lets you preview changes **before** they go live on main.
 
 ---
 
 ## PART 5 — Add a Custom Domain (Optional)
 
-If you have a domain like `wellahead.ai`:
+If you have a domain like `svasthax.com`:
 
 1. Go to Vercel Dashboard → your project → **"Settings"** → **"Domains"**
 2. Click **"Add Domain"**
-3. Enter your domain: `wellahead.ai`
+3. Enter your domain: `svasthax.com`
 4. Vercel shows you DNS records to add:
 
 | Type | Name | Value |

@@ -96,7 +96,7 @@ export default function CycleOfIntelligenceSection() {
           whileInView="visible"
           viewport={viewportOnce}
           role="list"
-          aria-label="The four stages of WellAhead.ai intelligence cycle"
+          aria-label="The four stages of SvasthaX intelligence cycle"
         >
           {cycleCards.map(({ icon: Icon, title, badge, badgeIcon, description, color, glow }) => (
             <motion.article

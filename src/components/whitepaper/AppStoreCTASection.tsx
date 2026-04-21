@@ -16,14 +16,14 @@ const storeButtons = [
     label: "Available on",
     storeName: "App Store",
     color: "group-hover:text-primary",
-    ariaLabel: "Download WellAhead.ai on the Apple App Store",
+    ariaLabel: "Download SvasthaX on the Apple App Store",
   },
   {
     icon: Terminal,
     label: "Get it on",
     storeName: "Google Play",
     color: "group-hover:text-secondary",
-    ariaLabel: "Download WellAhead.ai on Google Play",
+    ariaLabel: "Download SvasthaX on Google Play",
   },
 ];
 

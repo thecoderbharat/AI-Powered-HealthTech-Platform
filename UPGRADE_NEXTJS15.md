@@ -22,7 +22,7 @@
 Open Terminal and navigate to your project:
 
 ```bash
-cd /Users/bharat/Downloads/WellAheadProject/Web/wellahead
+cd /Users/bharat/Downloads/SvasthaXProject/Web/svasthax
 ```
 
 **Delete node_modules and lock file** (keeps your source code):
@@ -44,7 +44,7 @@ del package-lock.json
 Extract the new zip file. Copy and **replace** these files into your project folder:
 
 ```
-wellahead/
+svasthax/
 ├── package.json                          ← REPLACE
 ├── next.config.mjs                       ← REPLACE
 ├── tsconfig.json                         ← REPLACE
@@ -92,7 +92,7 @@ node --version
 
 ```bash
 # Make sure you're in the project folder
-cd /Users/bharat/Downloads/WellAheadProject/Web/wellahead
+cd /Users/bharat/Downloads/SvasthaXProject/Web/svasthax
 
 # Install everything fresh
 npm install

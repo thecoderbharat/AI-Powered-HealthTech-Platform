@@ -33,10 +33,10 @@ export default function Header() {
           {/* ── Logo ── */}
           <Link
             href="/"
-            aria-label="WellAhead.ai — Home"
+            aria-label="SvasthaX — Home"
             className="text-xl md:text-2xl font-black text-primary tracking-tighter font-headline hover:opacity-85 transition-opacity duration-200"
           >
-            WellAhead.ai
+            SvasthaX
           </Link>
 
           {/* ── Nav Links ── */}
@@ -78,7 +78,7 @@ export default function Header() {
                 "text-sm font-bold font-headline",
                 "shadow-[0_0_20px_rgba(131,239,225,0.15)]"
               )}
-              aria-label="Join the WellAhead.ai waitlist"
+              aria-label="Join the SvasthaX waitlist"
             >
               Join Waitlist
             </Link>

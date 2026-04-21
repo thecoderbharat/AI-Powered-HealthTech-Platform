@@ -62,7 +62,7 @@ export default function DigitalTwinArchitectureSection() {
             variants={staggerItem}
             className="text-on-surface-variant text-lg md:text-xl leading-relaxed mb-10 max-w-xl"
           >
-            WellAhead doesn&apos;t just track data. We construct a dynamic
+            SvasthaX doesn&apos;t just track data. We construct a dynamic
             digital simulation of your biological and behavioural trajectory to
             intercept illness before it manifests.
           </motion.p>
@@ -86,7 +86,7 @@ export default function DigitalTwinArchitectureSection() {
               <Link
                 href="/whitepaper"
                 className="inline-flex items-center gap-3 px-8 py-4 rounded-[1rem] bg-surface-container-highest/50 backdrop-blur-sm text-on-surface font-bold font-headline hover:bg-surface-container-highest transition-all duration-300 border border-white/[0.05]"
-                aria-label="Download the WellAhead.ai technical whitepaper"
+                aria-label="Download the SvasthaX technical whitepaper"
               >
                 Download Technical Whitepaper
                 <Download size={18} aria-hidden="true" />
@@ -115,8 +115,8 @@ export default function DigitalTwinArchitectureSection() {
 
           <div className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-[0_40px_80px_rgba(0,0,0,0.6)] shadow-glow-teal">
             <Image
-              src="/images/preventact.png"
-              alt="Isometric 3D diagram of the WellAhead.ai Preventive Behavioral Digital Twin architecture — neural networks integrated with biological data streams and AI processing layers"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHloc6icZ11TMs81IbugX0V0BrMghX79ThEfGsNrBeoucGGO8Fw7fSjxRjmPGggosU1UmCJySztrGY8TpM-fAe8TSUghd8JsxKaqQg8G49pd_rA115kDk8EyIZTxfai30KXTVyXhH9doUz2cAOAqzDoRlcV9o36ZTjrMIyIjnJAcETBv2VQwJiiZ2VTvFghlOUEoWSGIWV2xqhIEE3cEUSHUvGoeqIwPYJjPKMU9FeuFc6sbjXOhEs6e6zr1BEUCriIEUk2jc9k5o"
+              alt="Isometric 3D diagram of the SvasthaX Preventive Behavioral Digital Twin architecture — neural networks integrated with biological data streams and AI processing layers"
               width={540}
               height={540}
               className="w-full h-auto block opacity-90"

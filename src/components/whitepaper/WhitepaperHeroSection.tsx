@@ -55,7 +55,7 @@ export default function WhitepaperHeroSection() {
               <Link
                 href="#app-showcase"
                 className="inline-block btn-primary px-8 py-4 text-base"
-                aria-label="View the WellAhead.ai app showcase"
+                aria-label="View the SvasthaX app showcase"
               >
                 View App Showcase
               </Link>
@@ -78,7 +78,7 @@ export default function WhitepaperHeroSection() {
             <div className="relative rounded-[2.5rem] overflow-hidden shadow-glow-purple shadow-[0_40px_80px_rgba(0,0,0,0.5)]">
               <Image
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMLfRe7u-eGYBOH3O6j6ZC9STHUMPHqGY_JpBg-nwp-ZvcNbvKRxTj6aAxWcsR4zGcYZRLjDn5ZSy0GNkppsZU-ZfD4LflYwwMVDN8tZV4L5-O7xXPWst0S2ynSW25uLEQmwGLCOlCc8oOnKrkSZwQ93B5ZwPt88ky2g1jjzUSNEZszYmTt6-YeAhlpDoCkkFUkYF4C2WTQFdgnB7XVFop9mMNrEYHjc1bMbcUXb0KPafnc36EL01lTGODFZQWr0xCNbreT6OMRFE"
-                alt="Abstract visualization of neural pathway networks and biological data streams representing the WellAhead.ai preventive intelligence system"
+                alt="Abstract visualization of neural pathway networks and biological data streams representing the SvasthaX preventive intelligence system"
                 width={560}
                 height={480}
                 priority

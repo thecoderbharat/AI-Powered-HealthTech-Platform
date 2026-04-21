@@ -1,5 +1,5 @@
 // ─── Framer Motion Variants Library ───────────────────────────────────────
-// Centralised animation definitions for the WellAhead.ai design system.
+// Centralised animation definitions for the SvasthaX design system.
 // Compatible with framer-motion v12 + React 19
 
 import type { Variants, TargetAndTransition, Transition } from "framer-motion";

@@ -1,4 +1,4 @@
-// ─── WellAhead.ai — Shared TypeScript Types ───────────────────────────────
+// ─── SvasthaX — Shared TypeScript Types ───────────────────────────────
 
 // Navigation
 export interface NavLink {

@@ -21,7 +21,7 @@ const appScreens = [
       "Real-time synthesis of genomic, biometric, and environmental data.",
     imageSrc: "/images/app-dashboard.png",
     imageAlt:
-      "WellAhead.ai app home screen showing Prevention Score of 73, Today's Focus items including Hydration goal, Low HDL Cholesterol risk area, and High Processed Food Intake alert",
+      "SvasthaX app home screen showing Prevention Score of 73, Today's Focus items including Hydration goal, Low HDL Cholesterol risk area, and High Processed Food Intake alert",
     offsetClass: "",
     glow: "rgba(131,239,225,0.15)",
   },
@@ -31,7 +31,7 @@ const appScreens = [
       "Precision micro-adjustments to nutrition and recovery based on circadian flux.",
     imageSrc: "/images/app-daily-plan.png",
     imageAlt:
-      "WellAhead.ai Adaptive Daily Plan screen showing Today's Protocol — Optimize Your Day with Morning Hydration, Heart-Healthy Breakfast completed, and Desk Break Mobility tasks",
+      "SvasthaX Adaptive Daily Plan screen showing Today's Protocol — Optimize Your Day with Morning Hydration, Heart-Healthy Breakfast completed, and Desk Break Mobility tasks",
     offsetClass: "md:translate-y-12",
     glow: "rgba(175,136,255,0.15)",
   },
@@ -41,7 +41,7 @@ const appScreens = [
       "Context-aware conversational intelligence for immediate diagnostic clarity.",
     imageSrc: "/images/app-profile.png",
     imageAlt:
-      "WellAhead.ai Profile screen showing user Bharat with Prevention Score 73/100, Health Goals, Top Risk Area Low HDL Cholesterol, and Location details",
+      "SvasthaX Profile screen showing user Bharat with Prevention Score 73/100, Health Goals, Top Risk Area Low HDL Cholesterol, and Location details",
     offsetClass: "",
     glow: "rgba(131,239,225,0.15)",
   },
@@ -57,7 +57,7 @@ export default function AppShowcaseSection() {
       <div className="max-w-7xl mx-auto">
         {/* Visually hidden heading for SEO / accessibility */}
         <h2 id="app-showcase-heading" className="sr-only">
-          WellAhead.ai App Feature Screenshots
+          SvasthaX App Feature Screenshots
         </h2>
 
         {/* ── 3-column staggered phone grid ── */}
@@ -68,7 +68,7 @@ export default function AppShowcaseSection() {
           whileInView="visible"
           viewport={viewportOnce}
           role="list"
-          aria-label="WellAhead.ai real app screenshots"
+          aria-label="SvasthaX real app screenshots"
         >
           {appScreens.map(({ title, description, imageSrc, imageAlt, offsetClass, glow }) => (
             <motion.article

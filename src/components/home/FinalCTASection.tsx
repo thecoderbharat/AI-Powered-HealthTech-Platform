@@ -54,7 +54,7 @@ export default function FinalCTASection() {
               variants={staggerItem}
               className="text-on-surface-variant text-lg md:text-xl mb-12 max-w-2xl mx-auto leading-relaxed"
             >
-              Join the exclusive waitlist for WellAhead.ai and be the first to
+              Join the exclusive waitlist for SvasthaX and be the first to
               experience the future of autonomous health.
             </motion.p>
 
@@ -66,7 +66,7 @@ export default function FinalCTASection() {
                 <Link
                   href="/waitlist"
                   className="inline-block btn-primary px-14 py-5 text-xl shadow-glow-teal-lg"
-                  aria-label="Join the WellAhead.ai waitlist for exclusive early access"
+                  aria-label="Join the SvasthaX waitlist for exclusive early access"
                 >
                   Join Waitlist
                 </Link>

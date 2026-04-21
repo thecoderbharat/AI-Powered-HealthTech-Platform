@@ -3,13 +3,13 @@ import "./globals.css";
 
 // ─── Global SEO Metadata ───────────────────────────────────────────────────
 export const metadata: Metadata = {
-  metadataBase: new URL("https://wellahead.ai"),
+  metadataBase: new URL("https://svasthax.com"),
   title: {
-    default: "WellAhead.ai | Clinical-Grade Preventive Healthcare AI",
-    template: "%s | WellAhead.ai",
+    default: "SvasthaX | Clinical-Grade Preventive Healthcare AI",
+    template: "%s | SvasthaX",
   },
   description:
-    "WellAhead.ai is a clinical-grade preventive healthcare AI platform. Predict biological shifts, simulate health outcomes, and intercept illness before it manifests with your AI-powered Digital Twin.",
+    "SvasthaX is a clinical-grade preventive healthcare AI platform. Predict biological shifts, simulate health outcomes, and intercept illness before it manifests with your AI-powered Digital Twin.",
   keywords: [
     "preventive health AI",
     "digital twin health",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     "biometric AI",
     "preventive wellness",
   ],
-  authors: [{ name: "WellAhead.ai Team" }],
-  creator: "WellAhead.ai",
-  publisher: "WellAhead.ai",
+  authors: [{ name: "SvasthaX Team" }],
+  creator: "SvasthaX",
+  publisher: "SvasthaX",
   robots: {
     index: true,
     follow: true,
@@ -37,9 +37,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://wellahead.ai",
-    siteName: "WellAhead.ai",
-    title: "WellAhead.ai | Clinical-Grade Preventive Healthcare AI",
+    url: "https://svasthax.com",
+    siteName: "SvasthaX",
+    title: "SvasthaX | Clinical-Grade Preventive Healthcare AI",
     description:
       "The era of reactive medicine is over. Leverage deep-tech preventive intelligence to simulate health outcomes before they occur.",
     images: [
@@ -47,18 +47,18 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "WellAhead.ai — Clinical Oracle for Preventive Health",
+        alt: "SvasthaX — Clinical Oracle for Preventive Health",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "WellAhead.ai | Clinical-Grade Preventive Healthcare AI",
+    title: "SvasthaX | Clinical-Grade Preventive Healthcare AI",
     description:
       "Predict. Adapt. Prevent. The AI platform that simulates your health future before it happens.",
     images: ["/twitter-card.png"],
-    creator: "@WellAheadAI",
-    site: "@WellAheadAI",
+    creator: "@SvasthaX",
+    site: "@SvasthaX",
   },
   icons: {
     icon: "/favicon.ico",
@@ -72,26 +72,26 @@ export const metadata: Metadata = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "WellAhead.ai",
-  url: "https://wellahead.ai",
-  logo: "https://wellahead.ai/logo.png",
+  name: "SvasthaX",
+  url: "https://svasthax.com",
+  logo: "https://svasthax.com/logo.png",
   description:
     "Clinical-grade preventive healthcare AI platform using Digital Twin technology to predict and prevent illness.",
   sameAs: [
-    "https://twitter.com/WellAheadAI",
-    "https://www.linkedin.com/company/wellahead-ai",
+    "https://twitter.com/SvasthaXAI",
+    "https://www.linkedin.com/company/svasthax",
   ],
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "customer service",
-    email: "hello@wellahead.ai",
+    email: "hello@svasthax.com",
   },
 };
 
 const softwareApplicationSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  name: "WellAhead.ai",
+  name: "SvasthaX",
   applicationCategory: "HealthApplication",
   operatingSystem: "iOS, Android, Web",
   description:
@@ -104,7 +104,7 @@ const softwareApplicationSchema = {
   },
   creator: {
     "@type": "Organization",
-    name: "WellAhead.ai",
+    name: "SvasthaX",
   },
   featureList: [
     "Predictive health modeling",
@@ -113,7 +113,7 @@ const softwareApplicationSchema = {
     "Real-time biometric analysis",
     "AI-powered health insights",
   ],
-  screenshot: "https://wellahead.ai/screenshot.png",
+  screenshot: "https://svasthax.com/screenshot.png",
 };
 
 // ─── Root Layout ───────────────────────────────────────────────────────────

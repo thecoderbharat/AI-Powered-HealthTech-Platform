@@ -160,7 +160,7 @@ export default function WaitlistForm() {
               </p>
               <div className="flex items-center gap-2 text-primary text-xs font-bold uppercase tracking-widest font-headline">
                 <Sparkles size={14} aria-hidden="true" />
-                WellAhead.ai — Early Adopter
+                SvasthaX — Early Adopter
               </div>
             </motion.div>
           ) : (
@@ -368,7 +368,7 @@ export default function WaitlistForm() {
                     "flex items-center justify-center gap-3",
                     isSubmitting && "opacity-80 cursor-not-allowed"
                   )}
-                  aria-label={isSubmitting ? "Submitting your waitlist application…" : "Join the WellAhead.ai waitlist"}
+                  aria-label={isSubmitting ? "Submitting your waitlist application…" : "Join the SvasthaX waitlist"}
                 >
                   {isSubmitting ? (
                     <>

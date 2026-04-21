@@ -31,7 +31,7 @@ export default function PhoneMockup() {
       {/* ── Phone frame ── */}
       <div
         role="img"
-        aria-label="WellAhead.ai app mockup showing a health dashboard with a prevention score of 88 out of 100 and a vitality pulse chart"
+        aria-label="SvasthaX app mockup showing a health dashboard with a prevention score of 88 out of 100 and a vitality pulse chart"
         className="relative w-full max-w-[360px] aspect-[9/18.5] bg-surface-container-lowest border-4 border-surface-variant rounded-[3rem] overflow-hidden shadow-[0_40px_80px_rgba(0,0,0,0.7)] shadow-glow-purple"
       >
         {/* ── Status bar ── */}

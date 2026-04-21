@@ -296,7 +296,7 @@ export default function DigitalTwinSection() {
                 >
                   <Image
                     src="/images/digitaltwin.png"
-                    alt="WellAhead.ai Preventive Digital Twin — glowing teal humanoid figure representing your personal AI health simulation"
+                    alt="SvasthaX Preventive Digital Twin — glowing teal humanoid figure representing your personal AI health simulation"
                     width={280}
                     height={380}
                     className="object-contain drop-shadow-[0_0_40px_rgba(131,239,225,0.35)]"

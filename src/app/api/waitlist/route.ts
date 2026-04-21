@@ -62,7 +62,7 @@ export async function POST(req: NextRequest) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>New Waitlist Signup — WellAhead.ai</title>
+  <title>New Waitlist Signup — SvasthaX</title>
 </head>
 <body style="margin:0;padding:0;background:#070d1f;font-family:'Inter',Arial,sans-serif;color:#dfe4fe;">
   <table width="100%" cellpadding="0" cellspacing="0" style="background:#070d1f;padding:40px 20px;">
@@ -75,7 +75,7 @@ export async function POST(req: NextRequest) {
           <tr>
             <td style="background:linear-gradient(135deg,#83efe1 0%,#3fb1a5 100%);padding:32px 40px;">
               <h1 style="margin:0;font-size:24px;font-weight:900;color:#002824;letter-spacing:-0.5px;">
-                WellAhead.ai
+                SvasthaX
               </h1>
               <p style="margin:6px 0 0;font-size:13px;color:#004840;font-weight:600;">
                 New Waitlist Signup Received
@@ -87,7 +87,7 @@ export async function POST(req: NextRequest) {
           <tr>
             <td style="padding:40px;">
               <p style="margin:0 0 24px;font-size:15px;color:#a5aac2;line-height:1.6;">
-                A new user has joined the WellAhead.ai waitlist. Here are their details:
+                A new user has joined the SvasthaX waitlist. Here are their details:
               </p>
 
               <!-- Data table -->
@@ -128,7 +128,7 @@ export async function POST(req: NextRequest) {
           <tr>
             <td style="padding:24px 40px;border-top:1px solid rgba(65,71,91,0.3);">
               <p style="margin:0;font-size:12px;color:#41475b;text-align:center;">
-                This notification was sent automatically by WellAhead.ai &bull; Do not reply to this email
+                This notification was sent automatically by SvasthaX &bull; Do not reply to this email
               </p>
             </td>
           </tr>
@@ -148,7 +148,7 @@ export async function POST(req: NextRequest) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>You're on the WellAhead.ai Waitlist!</title>
+  <title>You're on the SvasthaX Waitlist!</title>
 </head>
 <body style="margin:0;padding:0;background:#070d1f;font-family:'Inter',Arial,sans-serif;color:#dfe4fe;">
   <table width="100%" cellpadding="0" cellspacing="0" style="background:#070d1f;padding:40px 20px;">
@@ -161,7 +161,7 @@ export async function POST(req: NextRequest) {
           <tr>
             <td style="background:linear-gradient(135deg,#83efe1 0%,#3fb1a5 100%);padding:40px;text-align:center;">
               <h1 style="margin:0;font-size:28px;font-weight:900;color:#002824;letter-spacing:-0.5px;">
-                WellAhead.ai
+                SvasthaX
               </h1>
               <p style="margin:8px 0 0;font-size:14px;color:#004840;font-weight:600;">
                 Clinical-Grade Preventive AI
@@ -202,8 +202,8 @@ export async function POST(req: NextRequest) {
           <tr>
             <td style="padding:24px 40px;border-top:1px solid rgba(65,71,91,0.3);">
               <p style="margin:0;font-size:12px;color:#41475b;text-align:center;">
-                © 2024 WellAhead.ai &bull; Clinical Precision &bull; Predictive Power
-                <br/>You're receiving this because you signed up at wellahead.ai
+                © 2024 SvasthaX &bull; Clinical Precision &bull; Predictive Power
+                <br/>You're receiving this because you signed up at svasthax.com
               </p>
             </td>
           </tr>
@@ -226,7 +226,7 @@ export async function POST(req: NextRequest) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          from: "WellAhead.ai <onboarding@resend.dev>",
+          from: "SvasthaX <onboarding@resend.dev>",
           to: [OWNER_EMAIL],
           subject: `🩺 New Waitlist Signup: ${fullName} (${city})`,
           html: emailHtml,
@@ -242,9 +242,9 @@ export async function POST(req: NextRequest) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          from: "WellAhead.ai <onboarding@resend.dev>",
+          from: "SvasthaX <onboarding@resend.dev>",
           to: [email],
-          subject: "You're on the WellAhead.ai Waitlist! 🩺",
+          subject: "You're on the SvasthaX Waitlist! 🩺",
           html: confirmationHtml,
         }),
       }),

@@ -52,9 +52,9 @@ export default function Footer() {
           <Link
             href="/"
             className="text-xl font-bold text-primary font-headline mb-6 block hover:opacity-85 transition-opacity"
-            aria-label="WellAhead.ai — Go to homepage"
+            aria-label="SvasthaX — Go to homepage"
           >
-            WellAhead.ai
+            SvasthaX
           </Link>
           <p className="text-on-surface-variant text-sm leading-relaxed">
             Advancing human health through the synthesis of predictive AI and
@@ -90,7 +90,7 @@ export default function Footer() {
       {/* ── Bottom bar ── */}
       <div className="max-w-7xl mx-auto px-8 md:px-12 py-6 border-t border-white/[0.05] flex flex-col md:flex-row justify-between items-center gap-3 text-xs">
         <p className="text-on-surface-variant">
-          &copy; {currentYear} WellAhead.ai. All rights reserved.
+          &copy; {currentYear} SvasthaX. All rights reserved.
         </p>
         <div className="flex gap-6" aria-label="Brand taglines">
           <span className="text-primary font-bold font-headline tracking-wide">

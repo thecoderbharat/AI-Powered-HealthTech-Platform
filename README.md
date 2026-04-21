@@ -1,4 +1,4 @@
-# WellAhead.ai — Next.js 14 Production Codebase
+# SvasthaX — Next.js 14 Production Codebase
 
 > **Clinical-Grade Preventive Healthcare AI Platform**  
 > Built with Next.js 14 App Router · TypeScript Strict · Tailwind CSS · Framer Motion
@@ -23,7 +23,7 @@ open http://localhost:3000
 ## 📁 Project Structure
 
 ```
-wellahead-ai/
+svasthax/
 ├── src/
 │   ├── app/                          # Next.js App Router
 │   │   ├── layout.tsx                # ✅ Root layout — JSON-LD + global SEO metadata
@@ -201,7 +201,7 @@ vercel --prod
 No environment variables required for the base build.  
 When connecting a real waitlist API, add to `.env.local`:
 ```env
-NEXT_PUBLIC_API_URL=https://api.wellahead.ai
+NEXT_PUBLIC_API_URL=https://api.svasthax.com
 WAITLIST_API_KEY=your_secret_key
 ```
 
